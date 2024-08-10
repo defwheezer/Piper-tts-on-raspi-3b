@@ -1,3 +1,5 @@
+#this program downloads an array of news titles and reads them
+#demonstrates streaming TTS audio instead of saving as wav file.
 import numpy as np
 import time
 import sounddevice as sd
