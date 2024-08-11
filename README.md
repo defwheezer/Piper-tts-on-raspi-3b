@@ -1,3 +1,10 @@
+#This example used the following OS:
+# Raspberry Pi OS Lite
+# Release date: July 4th 2024
+# System: 64-bit
+# Kernel version: 6.6
+# Debian version: 12 (bookworm)
+
 #First, make a virtual environment called 'pipertts'
 virtualenv pipertts
 
