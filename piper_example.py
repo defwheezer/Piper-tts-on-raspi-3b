@@ -11,14 +11,14 @@ from gpiozero import CPUTemperature
 cpu = CPUTemperature()
 print("cpu.temperature: ",cpu.temperature)
 
-model =  "en_US-kusal-medium.onnx"
-print ("model =  en_US-kusal-medium.onnx")
+model =  "en_US-joe-medium.onnx"
+print ("model =  en_US-joe-medium.onnx")
 
 import sounddevice as sd
 from piper.voice import PiperVoice
 
 voicedir = "/home/pi/pipertts/lib/python3.11/site-packages/piper/" #Where onnx model files are stored on my machine
-model = voicedir+"en_US-kusal-medium.onnx"
+model = voicedir+"en_US-joe-medium.onnx"
 voice = PiperVoice.load(model)
 print ("voice loaded")
 
